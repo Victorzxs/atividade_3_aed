@@ -1,0 +1,39 @@
+Discente: João Victor Mendes Assunção
+Matricula: 600126
+
+Observações: o código foi 100% gerado por IA, as partes que eu fiz da atividade foi delimitar o banco de dados apenas para as variaveis que 
+seriam utilizadas e deixa-lo no formato csv, alterar algumas partes do código para funcionar para os dados que eu usei(trocar os argumentos 
+que as funções receberiam as variavies), e fazer a análise critica baseada nos resultados para cada tópico. No banco reduzido eu converti as 
+variaveis que estavam no sistema métrico americano para o internacional para facilitar o entendimento, e eu alterei o nome das variaveis para 
+um equivalente em português pela mesma razão, o banco reduzido está disponivel no link abaixo. 
+link: https://raw.githubusercontent.com/Victorzxs/atividade_3_aed/refs/heads/main/aed3_limpo.csv
+
+justificativa do uso da IA: devido o meu baixo conhecimento em programação e bibliotecas do python seria inviavél ou muito dificil entregar 
+a atividade a tempo, devido isso eu desisti de fazer o código e me foquei apenas em adapta-lo para a atividade, é possivel ver em alguns itens 
+mais coisas do que foi pedido(o 3.3 especialmente).
+
+Análise Crítica
+
+3.1:
+
+Pelos resultados dos côeficientes não é possivel inferir dependência entre as variaveis, mas existe uma relação considerável, 
+já que todos ficaram em torno de 0.5, porém pelas tabelas de distribuição de frequência é possivel notar que, quem arremesa pelo lado 
+direito, majaritariamente também rebate pelo mesmo lado, o mesmo para o esuqerdo, só que com uma proporção menor, o que faz sentido, já 
+que a proporção de pessoas destras mundialmente é bem superior a de pessoas canhotas, o que me leva a pensar, o que eu havia pensado antes 
+de qualquer um desses calculos, as variaveis lado_arremesso(no bd original throws) e lado_rebatimento(no bd original bats) não se relacionam 
+diretamente entre si e sim com a variavel lateralidade(destreza, canhotismo, ambidestria e lateralidade cruzada) o que acaba gerando uma relação 
+indireta entre elas, mas bem longe de causa e efeito.
+
+3.2:
+
+Após a análise é possivel perceber uma relação direta entre as variaveis, quanto maior a altura de um jogador mais pesado ele tende a ser, 
+porém igual a primeira, não existe relação de causa e efeito, um jogador por ser mais alto não necessariamente será mais pesado, o que é possivel 
+ser visualizado pelo resultado dos côeficientes, o que faz sentido, já que o peso depende de diversos outros fatores como genética, estilo de vida, 
+a renda etc.
+
+3.3:
+
+Ao meu ver o nivel central da maioria dos grupos é semelhante variando entre 1,80m e 1,90m, mas a alguns com niveis mais distantes, como 
+a irlanda com 1,76m, existe uma variação moderada entre as medianas, já em relação a variancia é possivel ver que paises com um número 
+maior de observações tende a ter mais variações nas alturas, como por exemplo o USA que possui uma quantidade significativa de outliers. 
+Respondendo a pergunta, a mediana muda drasticamente, possui uma variação moderada, e a variancia daria para enquadrar em drasticamente.
